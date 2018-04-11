@@ -1,0 +1,1052 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		200792E01BD96BAA00BBE6C4 /* GLTouchView.m in Sources */ = {isa = PBXBuildFile; fileRef = 200792DD1BD96BAA00BBE6C4 /* GLTouchView.m */; };
+		200792E11BD96BAA00BBE6C4 /* GLHelpView.m in Sources */ = {isa = PBXBuildFile; fileRef = 200792DF1BD96BAA00BBE6C4 /* GLHelpView.m */; };
+		200ED4BD1BD73AFE000C0D5F /* GLScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 200ED4BC1BD73AFE000C0D5F /* GLScrollView.m */; };
+		200ED4C11BD74846000C0D5F /* GLArticlesStorage.m in Sources */ = {isa = PBXBuildFile; fileRef = 200ED4C01BD74846000C0D5F /* GLArticlesStorage.m */; };
+		2029DC781BD9A2550012E6B4 /* NotoSerif-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2029DC741BD9A2550012E6B4 /* NotoSerif-Bold.ttf */; };
+		2029DC791BD9A2550012E6B4 /* NotoSerif-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2029DC751BD9A2550012E6B4 /* NotoSerif-Regular.ttf */; };
+		2029DC7A1BD9A2550012E6B4 /* NotoSerif-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2029DC761BD9A2550012E6B4 /* NotoSerif-BoldItalic.ttf */; };
+		2029DC7B1BD9A2550012E6B4 /* NotoSerif-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2029DC771BD9A2550012E6B4 /* NotoSerif-Italic.ttf */; };
+		203B487B1BE9D7C4009B5882 /* GalileoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 203B487A1BE9D7C4009B5882 /* GalileoTests.m */; };
+		203B48841BEABD49009B5882 /* GLPromptView.m in Sources */ = {isa = PBXBuildFile; fileRef = 203B48831BEABD49009B5882 /* GLPromptView.m */; };
+		203C5CF01BCB43DE00D217B0 /* GLMenuListViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 203C5CEF1BCB43DE00D217B0 /* GLMenuListViewCell.m */; };
+		204A34671BD8ABB500E6DB56 /* GLAboutViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 204A34661BD8ABB500E6DB56 /* GLAboutViewController.m */; };
+		204A346C1BD8AC3A00E6DB56 /* AYAppStore.m in Sources */ = {isa = PBXBuildFile; fileRef = 204A34691BD8AC3A00E6DB56 /* AYAppStore.m */; };
+		204A346D1BD8AC3A00E6DB56 /* AYFeedback.m in Sources */ = {isa = PBXBuildFile; fileRef = 204A346B1BD8AC3A00E6DB56 /* AYFeedback.m */; };
+		204A34751BD8B4BE00E6DB56 /* GLStatisticsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 204A34741BD8B4BE00E6DB56 /* GLStatisticsViewController.m */; };
+		2051AD9D1BD1A7FD005E88D6 /* GLMenuArticleView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2051AD9C1BD1A7FD005E88D6 /* GLMenuArticleView.m */; };
+		2060560C1BD716B2001A713A /* UIScrollView+VGParallaxHeader.m in Sources */ = {isa = PBXBuildFile; fileRef = 2060560B1BD716B2001A713A /* UIScrollView+VGParallaxHeader.m */; };
+		20707DCE1BD08FB100265647 /* VLDContextSheet.m in Sources */ = {isa = PBXBuildFile; fileRef = 20707DC91BD08FB100265647 /* VLDContextSheet.m */; };
+		20707DCF1BD08FB100265647 /* VLDContextSheetItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 20707DCB1BD08FB100265647 /* VLDContextSheetItem.m */; };
+		20707DD01BD08FB100265647 /* VLDContextSheetItemView.m in Sources */ = {isa = PBXBuildFile; fileRef = 20707DCD1BD08FB100265647 /* VLDContextSheetItemView.m */; };
+		208368C91BD82C2E00FBE568 /* GLFavoritesCollectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 208368C81BD82C2E00FBE568 /* GLFavoritesCollectionViewController.m */; };
+		208368CC1BD82D4F00FBE568 /* GLFavoritesCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 208368CB1BD82D4F00FBE568 /* GLFavoritesCollectionViewCell.m */; };
+		20850DD81BCB276D004FAF28 /* UIWindow+GLHelpers.m in Sources */ = {isa = PBXBuildFile; fileRef = 20850DD71BCB276D004FAF28 /* UIWindow+GLHelpers.m */; };
+		20878B981BD8217100A9E320 /* Roboto-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 20878B971BD8217100A9E320 /* Roboto-Black.ttf */; };
+		20A4738F1BC9C0A700B70170 /* GLDataManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 20A4738E1BC9C0A700B70170 /* GLDataManager.m */; };
+		20A473921BC9C74500B70170 /* GLArticlesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 20A473911BC9C74500B70170 /* GLArticlesViewController.m */; };
+		20A473951BC9D2E600B70170 /* GLArticle.m in Sources */ = {isa = PBXBuildFile; fileRef = 20A473941BC9D2E600B70170 /* GLArticle.m */; };
+		20A473981BC9E69A00B70170 /* UIView+AYUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 20A473971BC9E69A00B70170 /* UIView+AYUtils.m */; };
+		20A4739B1BC9F23100B70170 /* UIImage+GLHelpers.m in Sources */ = {isa = PBXBuildFile; fileRef = 20A4739A1BC9F23100B70170 /* UIImage+GLHelpers.m */; };
+		20A4739E1BC9F32500B70170 /* GLArticleView.m in Sources */ = {isa = PBXBuildFile; fileRef = 20A4739D1BC9F32500B70170 /* GLArticleView.m */; };
+		20A473A11BC9F5CA00B70170 /* UIColor+GLTints.m in Sources */ = {isa = PBXBuildFile; fileRef = 20A473A01BC9F5CA00B70170 /* UIColor+GLTints.m */; };
+		20A473A41BC9F64000B70170 /* UIFont+GLSizes.m in Sources */ = {isa = PBXBuildFile; fileRef = 20A473A31BC9F64000B70170 /* UIFont+GLSizes.m */; };
+		20A473A81BC9F75000B70170 /* UILabel+GLHelpers.m in Sources */ = {isa = PBXBuildFile; fileRef = 20A473A71BC9F75000B70170 /* UILabel+GLHelpers.m */; };
+		20A473B11BCA19F900B70170 /* GLPicture.m in Sources */ = {isa = PBXBuildFile; fileRef = 20A473B01BCA19F900B70170 /* GLPicture.m */; };
+		20C83E701BD8589A000364D3 /* GLSettingsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 20C83E6F1BD8589A000364D3 /* GLSettingsViewController.m */; };
+		20C83E741BD85CEE000364D3 /* GLLanguageChoiceTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 20C83E731BD85CEE000364D3 /* GLLanguageChoiceTableViewCell.m */; };
+		20D2FA331BD0A3A7002858A1 /* GLPullForActionView.m in Sources */ = {isa = PBXBuildFile; fileRef = 20D2FA321BD0A3A7002858A1 /* GLPullForActionView.m */; };
+		20E616E21BCB0E2200F581F0 /* GLLoadingImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 20E616E11BCB0E2200F581F0 /* GLLoadingImageView.m */; };
+		20E616EF1BCB219900F581F0 /* GLMenuListView.m in Sources */ = {isa = PBXBuildFile; fileRef = 20E616EA1BCB219900F581F0 /* GLMenuListView.m */; };
+		20E616F01BCB219900F581F0 /* GLMenuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 20E616EC1BCB219900F581F0 /* GLMenuViewController.m */; };
+		20F2A5D91BD8239A005E27AC /* Roboto-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 20F2A5D81BD8239A005E27AC /* Roboto-Regular.ttf */; };
+		28A5EF6C80AF4A7188C80A4D /* GLAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A210B59C13761B6158D7A272 /* GLAppDelegate.m */; };
+		4D4A9B080095D41569ECC218 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 20CA6AFDACE2B81E9CC75238 /* Images.xcassets */; };
+		8C11405871D0BF99B18319B4 /* Pods_Galileo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4C02B639E59030D209C520E7 /* Pods_Galileo.framework */; };
+		8C32E55F1EB4F1D4AE56B81C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7B48926F3E0788D7C71925F0 /* Foundation.framework */; };
+		BD3594C658498FC7338513C4 /* Settings.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 7C09AF4CAD9A2F4E60704F47 /* Settings.bundle */; };
+		CC185C150731AB4D899B4D13 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1661E632025B2C6A43108481 /* main.m */; };
+		E4316A1413253A97354B1680 /* LaunchScreen.xib in Sources */ = {isa = PBXBuildFile; fileRef = F26F1BD1950A1F2C3134A21B /* LaunchScreen.xib */; };
+		F90445D90B7F21FE2373808B /* Pods_unit_tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A4C4546422F3907DC104988E /* Pods_unit_tests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		203B487D1BE9D7C4009B5882 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 68F63E3C7B385FDBC5131A09 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8BCD80686172FA2A7F0D9830;
+			remoteInfo = Galileo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		04BC0ED966D5A1B8B730DE41 /* Pods-unit_tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-unit_tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-unit_tests/Pods-unit_tests.release.xcconfig"; sourceTree = "<group>"; };
+		122168E0F11B6C610860BAD0 /* Pods-Galileo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Galileo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Galileo/Pods-Galileo.debug.xcconfig"; sourceTree = "<group>"; };
+		1661E632025B2C6A43108481 /* main.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		200792DC1BD96BAA00BBE6C4 /* GLTouchView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GLTouchView.h; sourceTree = "<group>"; };
+		200792DD1BD96BAA00BBE6C4 /* GLTouchView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GLTouchView.m; sourceTree = "<group>"; };
+		200792DE1BD96BAA00BBE6C4 /* GLHelpView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GLHelpView.h; sourceTree = "<group>"; };
+		200792DF1BD96BAA00BBE6C4 /* GLHelpView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GLHelpView.m; sourceTree = "<group>"; };
+		200ED4BB1BD73AFE000C0D5F /* GLScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GLScrollView.h; sourceTree = "<group>"; };
+		200ED4BC1BD73AFE000C0D5F /* GLScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GLScrollView.m; sourceTree = "<group>"; };
+		200ED4BF1BD74846000C0D5F /* GLArticlesStorage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GLArticlesStorage.h; sourceTree = "<group>"; };
+		200ED4C01BD74846000C0D5F /* GLArticlesStorage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GLArticlesStorage.m; sourceTree = "<group>"; };
+		2029DC741BD9A2550012E6B4 /* NotoSerif-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NotoSerif-Bold.ttf"; sourceTree = "<group>"; };
+		2029DC751BD9A2550012E6B4 /* NotoSerif-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NotoSerif-Regular.ttf"; sourceTree = "<group>"; };
+		2029DC761BD9A2550012E6B4 /* NotoSerif-BoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NotoSerif-BoldItalic.ttf"; sourceTree = "<group>"; };
+		2029DC771BD9A2550012E6B4 /* NotoSerif-Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NotoSerif-Italic.ttf"; sourceTree = "<group>"; };
+		203B48781BE9D7C4009B5882 /* GalileoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GalileoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		203B487A1BE9D7C4009B5882 /* GalileoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GalileoTests.m; sourceTree = "<group>"; };
+		203B487C1BE9D7C4009B5882 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		203B48821BEABD49009B5882 /* GLPromptView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GLPromptView.h; sourceTree = "<group>"; };
+		203B48831BEABD49009B5882 /* GLPromptView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GLPromptView.m; sourceTree = "<group>"; };
+		203C5CEE1BCB43DE00D217B0 /* GLMenuListViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GLMenuListViewCell.h; sourceTree = "<group>"; };
+		203C5CEF1BCB43DE00D217B0 /* GLMenuListViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GLMenuListViewCell.m; sourceTree = "<group>"; };
+		204A34651BD8ABB500E6DB56 /* GLAboutViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GLAboutViewController.h; sourceTree = "<group>"; };
+		204A34661BD8ABB500E6DB56 /* GLAboutViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GLAboutViewController.m; sourceTree = "<group>"; };
+		204A34681BD8AC3A00E6DB56 /* AYAppStore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AYAppStore.h; sourceTree = "<group>"; };
+		204A34691BD8AC3A00E6DB56 /* AYAppStore.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AYAppStore.m; sourceTree = "<group>"; };
+		204A346A1BD8AC3A00E6DB56 /* AYFeedback.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AYFeedback.h; sourceTree = "<group>"; };
+		204A346B1BD8AC3A00E6DB56 /* AYFeedback.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AYFeedback.m; sourceTree = "<group>"; };
+		204A34731BD8B4BE00E6DB56 /* GLStatisticsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GLStatisticsViewController.h; sourceTree = "<group>"; };
+		204A34741BD8B4BE00E6DB56 /* GLStatisticsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GLStatisticsViewController.m; sourceTree = "<group>"; };
+		204A97F81BD2258F00132952 /* Galileo-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Galileo-Prefix.pch"; sourceTree = "<group>"; };
+		2051AD9B1BD1A7FD005E88D6 /* GLMenuArticleView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GLMenuArticleView.h; sourceTree = "<group>"; };
+		2051AD9C1BD1A7FD005E88D6 /* GLMenuArticleView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GLMenuArticleView.m; sourceTree = "<group>"; };
+		2060560A1BD716B2001A713A /* UIScrollView+VGParallaxHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIScrollView+VGParallaxHeader.h"; sourceTree = "<group>"; };
+		2060560B1BD716B2001A713A /* UIScrollView+VGParallaxHeader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIScrollView+VGParallaxHeader.m"; sourceTree = "<group>"; };
+		20707DC81BD08FB100265647 /* VLDContextSheet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VLDContextSheet.h; sourceTree = "<group>"; };
+		20707DC91BD08FB100265647 /* VLDContextSheet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VLDContextSheet.m; sourceTree = "<group>"; };
+		20707DCA1BD08FB100265647 /* VLDContextSheetItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VLDContextSheetItem.h; sourceTree = "<group>"; };
+		20707DCB1BD08FB100265647 /* VLDContextSheetItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VLDContextSheetItem.m; sourceTree = "<group>"; };
+		20707DCC1BD08FB100265647 /* VLDContextSheetItemView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VLDContextSheetItemView.h; sourceTree = "<group>"; };
+		20707DCD1BD08FB100265647 /* VLDContextSheetItemView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VLDContextSheetItemView.m; sourceTree = "<group>"; };
+		208368C71BD82C2E00FBE568 /* GLFavoritesCollectionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GLFavoritesCollectionViewController.h; sourceTree = "<group>"; };
+		208368C81BD82C2E00FBE568 /* GLFavoritesCollectionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GLFavoritesCollectionViewController.m; sourceTree = "<group>"; };
+		208368CA1BD82D4F00FBE568 /* GLFavoritesCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GLFavoritesCollectionViewCell.h; sourceTree = "<group>"; };
+		208368CB1BD82D4F00FBE568 /* GLFavoritesCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GLFavoritesCollectionViewCell.m; sourceTree = "<group>"; };
+		20850DD61BCB276D004FAF28 /* UIWindow+GLHelpers.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIWindow+GLHelpers.h"; sourceTree = "<group>"; };
+		20850DD71BCB276D004FAF28 /* UIWindow+GLHelpers.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIWindow+GLHelpers.m"; sourceTree = "<group>"; };
+		20878B971BD8217100A9E320 /* Roboto-Black.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Black.ttf"; sourceTree = "<group>"; };
+		20A4738D1BC9C0A700B70170 /* GLDataManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GLDataManager.h; sourceTree = "<group>"; };
+		20A4738E1BC9C0A700B70170 /* GLDataManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GLDataManager.m; sourceTree = "<group>"; };
+		20A473901BC9C74500B70170 /* GLArticlesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GLArticlesViewController.h; sourceTree = "<group>"; };
+		20A473911BC9C74500B70170 /* GLArticlesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GLArticlesViewController.m; sourceTree = "<group>"; };
+		20A473931BC9D2E600B70170 /* GLArticle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GLArticle.h; sourceTree = "<group>"; };
+		20A473941BC9D2E600B70170 /* GLArticle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GLArticle.m; sourceTree = "<group>"; };
+		20A473961BC9E69A00B70170 /* UIView+AYUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+AYUtils.h"; sourceTree = "<group>"; };
+		20A473971BC9E69A00B70170 /* UIView+AYUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+AYUtils.m"; sourceTree = "<group>"; };
+		20A473991BC9F23100B70170 /* UIImage+GLHelpers.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+GLHelpers.h"; sourceTree = "<group>"; };
+		20A4739A1BC9F23100B70170 /* UIImage+GLHelpers.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+GLHelpers.m"; sourceTree = "<group>"; };
+		20A4739C1BC9F32500B70170 /* GLArticleView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GLArticleView.h; sourceTree = "<group>"; };
+		20A4739D1BC9F32500B70170 /* GLArticleView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GLArticleView.m; sourceTree = "<group>"; };
+		20A4739F1BC9F5CA00B70170 /* UIColor+GLTints.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+GLTints.h"; sourceTree = "<group>"; };
+		20A473A01BC9F5CA00B70170 /* UIColor+GLTints.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+GLTints.m"; sourceTree = "<group>"; };
+		20A473A21BC9F64000B70170 /* UIFont+GLSizes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIFont+GLSizes.h"; sourceTree = "<group>"; };
+		20A473A31BC9F64000B70170 /* UIFont+GLSizes.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIFont+GLSizes.m"; sourceTree = "<group>"; };
+		20A473A51BC9F65600B70170 /* AYMacros.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AYMacros.h; sourceTree = "<group>"; };
+		20A473A61BC9F75000B70170 /* UILabel+GLHelpers.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UILabel+GLHelpers.h"; sourceTree = "<group>"; };
+		20A473A71BC9F75000B70170 /* UILabel+GLHelpers.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UILabel+GLHelpers.m"; sourceTree = "<group>"; };
+		20A473AF1BCA19F900B70170 /* GLPicture.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GLPicture.h; sourceTree = "<group>"; };
+		20A473B01BCA19F900B70170 /* GLPicture.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GLPicture.m; sourceTree = "<group>"; };
+		20C83E6E1BD8589A000364D3 /* GLSettingsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GLSettingsViewController.h; sourceTree = "<group>"; };
+		20C83E6F1BD8589A000364D3 /* GLSettingsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GLSettingsViewController.m; sourceTree = "<group>"; };
+		20C83E721BD85CEE000364D3 /* GLLanguageChoiceTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GLLanguageChoiceTableViewCell.h; sourceTree = "<group>"; };
+		20C83E731BD85CEE000364D3 /* GLLanguageChoiceTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GLLanguageChoiceTableViewCell.m; sourceTree = "<group>"; };
+		20CA6AFDACE2B81E9CC75238 /* Images.xcassets */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		20D27CCB207E694300A68B57 /* Secrets.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Secrets.h; sourceTree = "<group>"; };
+		20D2FA311BD0A3A7002858A1 /* GLPullForActionView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GLPullForActionView.h; sourceTree = "<group>"; };
+		20D2FA321BD0A3A7002858A1 /* GLPullForActionView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GLPullForActionView.m; sourceTree = "<group>"; };
+		20E616E01BCB0E2200F581F0 /* GLLoadingImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GLLoadingImageView.h; sourceTree = "<group>"; };
+		20E616E11BCB0E2200F581F0 /* GLLoadingImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GLLoadingImageView.m; sourceTree = "<group>"; };
+		20E616E91BCB219900F581F0 /* GLMenuListView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GLMenuListView.h; sourceTree = "<group>"; };
+		20E616EA1BCB219900F581F0 /* GLMenuListView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GLMenuListView.m; sourceTree = "<group>"; };
+		20E616EB1BCB219900F581F0 /* GLMenuViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GLMenuViewController.h; sourceTree = "<group>"; };
+		20E616EC1BCB219900F581F0 /* GLMenuViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GLMenuViewController.m; sourceTree = "<group>"; };
+		20F2A5D81BD8239A005E27AC /* Roboto-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Regular.ttf"; sourceTree = "<group>"; };
+		248C1862169A8B4EE324C3A7 /* Galileo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Galileo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4C02B639E59030D209C520E7 /* Pods_Galileo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Galileo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7B48926F3E0788D7C71925F0 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		7C09AF4CAD9A2F4E60704F47 /* Settings.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; path = Settings.bundle; sourceTree = "<group>"; };
+		A0EB2AC1330705E0F079B459 /* GLAppDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = GLAppDelegate.h; sourceTree = "<group>"; };
+		A210B59C13761B6158D7A272 /* GLAppDelegate.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = GLAppDelegate.m; sourceTree = "<group>"; };
+		A3D53AB791990285F6D75402 /* Pods-Galileo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Galileo.release.xcconfig"; path = "Pods/Target Support Files/Pods-Galileo/Pods-Galileo.release.xcconfig"; sourceTree = "<group>"; };
+		A4C4546422F3907DC104988E /* Pods_unit_tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_unit_tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B3852E0C995D2160F14D9D56 /* Pods-unit_tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-unit_tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-unit_tests/Pods-unit_tests.debug.xcconfig"; sourceTree = "<group>"; };
+		F26F1BD1950A1F2C3134A21B /* LaunchScreen.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; path = LaunchScreen.xib; sourceTree = "<group>"; };
+		F8CF9C84352EA324037EBF07 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		203B48751BE9D7C4009B5882 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F90445D90B7F21FE2373808B /* Pods_unit_tests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4A081CABE858AAFA23FC7740 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8C32E55F1EB4F1D4AE56B81C /* Foundation.framework in Frameworks */,
+				8C11405871D0BF99B18319B4 /* Pods_Galileo.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1A794AB51CD082EA9DCEB417 /* Other-Sources */ = {
+			isa = PBXGroup;
+			children = (
+				F8CF9C84352EA324037EBF07 /* Info.plist */,
+				1661E632025B2C6A43108481 /* main.m */,
+				204A97F81BD2258F00132952 /* Galileo-Prefix.pch */,
+			);
+			path = "Other-Sources";
+			sourceTree = "<group>";
+		};
+		200792DB1BD96BAA00BBE6C4 /* Help */ = {
+			isa = PBXGroup;
+			children = (
+				200792DC1BD96BAA00BBE6C4 /* GLTouchView.h */,
+				200792DD1BD96BAA00BBE6C4 /* GLTouchView.m */,
+				200792DE1BD96BAA00BBE6C4 /* GLHelpView.h */,
+				200792DF1BD96BAA00BBE6C4 /* GLHelpView.m */,
+			);
+			path = Help;
+			sourceTree = "<group>";
+		};
+		203B48791BE9D7C4009B5882 /* GalileoTests */ = {
+			isa = PBXGroup;
+			children = (
+				203B487A1BE9D7C4009B5882 /* GalileoTests.m */,
+				203B487C1BE9D7C4009B5882 /* Info.plist */,
+			);
+			path = GalileoTests;
+			sourceTree = "<group>";
+		};
+		204A346E1BD8B47B00E6DB56 /* About */ = {
+			isa = PBXGroup;
+			children = (
+				204A34651BD8ABB500E6DB56 /* GLAboutViewController.h */,
+				204A34661BD8ABB500E6DB56 /* GLAboutViewController.m */,
+			);
+			path = About;
+			sourceTree = "<group>";
+		};
+		204A346F1BD8B48100E6DB56 /* Menu */ = {
+			isa = PBXGroup;
+			children = (
+				20E616EB1BCB219900F581F0 /* GLMenuViewController.h */,
+				20E616EC1BCB219900F581F0 /* GLMenuViewController.m */,
+			);
+			path = Menu;
+			sourceTree = "<group>";
+		};
+		204A34701BD8B48700E6DB56 /* Articles */ = {
+			isa = PBXGroup;
+			children = (
+				20A473901BC9C74500B70170 /* GLArticlesViewController.h */,
+				20A473911BC9C74500B70170 /* GLArticlesViewController.m */,
+			);
+			path = Articles;
+			sourceTree = "<group>";
+		};
+		204A34711BD8B49400E6DB56 /* Menu */ = {
+			isa = PBXGroup;
+			children = (
+				2051AD9B1BD1A7FD005E88D6 /* GLMenuArticleView.h */,
+				2051AD9C1BD1A7FD005E88D6 /* GLMenuArticleView.m */,
+				20E616E91BCB219900F581F0 /* GLMenuListView.h */,
+				20E616EA1BCB219900F581F0 /* GLMenuListView.m */,
+				203C5CEE1BCB43DE00D217B0 /* GLMenuListViewCell.h */,
+				203C5CEF1BCB43DE00D217B0 /* GLMenuListViewCell.m */,
+			);
+			path = Menu;
+			sourceTree = "<group>";
+		};
+		204A34721BD8B4A400E6DB56 /* Articles */ = {
+			isa = PBXGroup;
+			children = (
+				200ED4BB1BD73AFE000C0D5F /* GLScrollView.h */,
+				200ED4BC1BD73AFE000C0D5F /* GLScrollView.m */,
+				20A4739C1BC9F32500B70170 /* GLArticleView.h */,
+				20A4739D1BC9F32500B70170 /* GLArticleView.m */,
+				20D2FA311BD0A3A7002858A1 /* GLPullForActionView.h */,
+				20D2FA321BD0A3A7002858A1 /* GLPullForActionView.m */,
+				20E616E01BCB0E2200F581F0 /* GLLoadingImageView.h */,
+				20E616E11BCB0E2200F581F0 /* GLLoadingImageView.m */,
+			);
+			path = Articles;
+			sourceTree = "<group>";
+		};
+		204A34761BD8B4C700E6DB56 /* Statistics */ = {
+			isa = PBXGroup;
+			children = (
+				204A34731BD8B4BE00E6DB56 /* GLStatisticsViewController.h */,
+				204A34741BD8B4BE00E6DB56 /* GLStatisticsViewController.m */,
+			);
+			path = Statistics;
+			sourceTree = "<group>";
+		};
+		2060560D1BD716BF001A713A /* VGParallaxHeader */ = {
+			isa = PBXGroup;
+			children = (
+				2060560A1BD716B2001A713A /* UIScrollView+VGParallaxHeader.h */,
+				2060560B1BD716B2001A713A /* UIScrollView+VGParallaxHeader.m */,
+			);
+			path = VGParallaxHeader;
+			sourceTree = "<group>";
+		};
+		20707DC71BD08FB100265647 /* VLDContextSheet */ = {
+			isa = PBXGroup;
+			children = (
+				20707DC81BD08FB100265647 /* VLDContextSheet.h */,
+				20707DC91BD08FB100265647 /* VLDContextSheet.m */,
+				20707DCA1BD08FB100265647 /* VLDContextSheetItem.h */,
+				20707DCB1BD08FB100265647 /* VLDContextSheetItem.m */,
+				20707DCC1BD08FB100265647 /* VLDContextSheetItemView.h */,
+				20707DCD1BD08FB100265647 /* VLDContextSheetItemView.m */,
+			);
+			path = VLDContextSheet;
+			sourceTree = "<group>";
+		};
+		208368CD1BD82D5800FBE568 /* Favorites */ = {
+			isa = PBXGroup;
+			children = (
+				208368C71BD82C2E00FBE568 /* GLFavoritesCollectionViewController.h */,
+				208368C81BD82C2E00FBE568 /* GLFavoritesCollectionViewController.m */,
+				208368CA1BD82D4F00FBE568 /* GLFavoritesCollectionViewCell.h */,
+				208368CB1BD82D4F00FBE568 /* GLFavoritesCollectionViewCell.m */,
+			);
+			path = Favorites;
+			sourceTree = "<group>";
+		};
+		20878B821BD7682500A9E320 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				2029DC741BD9A2550012E6B4 /* NotoSerif-Bold.ttf */,
+				2029DC751BD9A2550012E6B4 /* NotoSerif-Regular.ttf */,
+				2029DC761BD9A2550012E6B4 /* NotoSerif-BoldItalic.ttf */,
+				2029DC771BD9A2550012E6B4 /* NotoSerif-Italic.ttf */,
+				20F2A5D81BD8239A005E27AC /* Roboto-Regular.ttf */,
+				20878B971BD8217100A9E320 /* Roboto-Black.ttf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		20C83E711BD85CA0000364D3 /* Settings */ = {
+			isa = PBXGroup;
+			children = (
+				20C83E6E1BD8589A000364D3 /* GLSettingsViewController.h */,
+				20C83E6F1BD8589A000364D3 /* GLSettingsViewController.m */,
+				20C83E721BD85CEE000364D3 /* GLLanguageChoiceTableViewCell.h */,
+				20C83E731BD85CEE000364D3 /* GLLanguageChoiceTableViewCell.m */,
+			);
+			path = Settings;
+			sourceTree = "<group>";
+		};
+		271B7A20289916386404C8FD /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+				20A4738D1BC9C0A700B70170 /* GLDataManager.h */,
+				20A4738E1BC9C0A700B70170 /* GLDataManager.m */,
+			);
+			path = Managers;
+			sourceTree = "<group>";
+		};
+		7118F7570CD337B689840550 /* Galileo */ = {
+			isa = PBXGroup;
+			children = (
+				DD15F3349A1A06FD04E1DE4D /* Models */,
+				76FE74F8356FA597159FE9DA /* Views */,
+				C699B651E965E8B6290F0198 /* Controllers */,
+				271B7A20289916386404C8FD /* Managers */,
+				799A978EC26E6D6EF88EAEA7 /* Helpers */,
+				D64BBEB753AE342B1B72F141 /* Libraries */,
+				CAB9F7A451B3B6B97026F5BE /* Resources */,
+				20D27CCB207E694300A68B57 /* Secrets.h */,
+			);
+			path = Galileo;
+			sourceTree = "<group>";
+		};
+		76FE74F8356FA597159FE9DA /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				203B48821BEABD49009B5882 /* GLPromptView.h */,
+				203B48831BEABD49009B5882 /* GLPromptView.m */,
+				200792DB1BD96BAA00BBE6C4 /* Help */,
+				204A34721BD8B4A400E6DB56 /* Articles */,
+				204A34711BD8B49400E6DB56 /* Menu */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		799A978EC26E6D6EF88EAEA7 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				204A34681BD8AC3A00E6DB56 /* AYAppStore.h */,
+				204A34691BD8AC3A00E6DB56 /* AYAppStore.m */,
+				204A346A1BD8AC3A00E6DB56 /* AYFeedback.h */,
+				204A346B1BD8AC3A00E6DB56 /* AYFeedback.m */,
+				20A473A51BC9F65600B70170 /* AYMacros.h */,
+				20A473961BC9E69A00B70170 /* UIView+AYUtils.h */,
+				20A473971BC9E69A00B70170 /* UIView+AYUtils.m */,
+				20A4739F1BC9F5CA00B70170 /* UIColor+GLTints.h */,
+				20A473A01BC9F5CA00B70170 /* UIColor+GLTints.m */,
+				20A473A21BC9F64000B70170 /* UIFont+GLSizes.h */,
+				20A473A31BC9F64000B70170 /* UIFont+GLSizes.m */,
+				20A473A61BC9F75000B70170 /* UILabel+GLHelpers.h */,
+				20A473A71BC9F75000B70170 /* UILabel+GLHelpers.m */,
+				20A473991BC9F23100B70170 /* UIImage+GLHelpers.h */,
+				20A4739A1BC9F23100B70170 /* UIImage+GLHelpers.m */,
+				20850DD61BCB276D004FAF28 /* UIWindow+GLHelpers.h */,
+				20850DD71BCB276D004FAF28 /* UIWindow+GLHelpers.m */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		8C6AC1F26EEC5AB41F363463 = {
+			isa = PBXGroup;
+			children = (
+				7118F7570CD337B689840550 /* Galileo */,
+				203B48791BE9D7C4009B5882 /* GalileoTests */,
+				C83F194835028C8E81EC4876 /* Frameworks */,
+				B02857E59703419003728E9A /* Products */,
+				97781FBE390D65A79F1EE55F /* Pods */,
+			);
+			indentWidth = 4;
+			sourceTree = "<group>";
+			tabWidth = 4;
+			usesTabs = 0;
+		};
+		97781FBE390D65A79F1EE55F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				04BC0ED966D5A1B8B730DE41 /* Pods-unit_tests.release.xcconfig */,
+				B3852E0C995D2160F14D9D56 /* Pods-unit_tests.debug.xcconfig */,
+				A3D53AB791990285F6D75402 /* Pods-Galileo.release.xcconfig */,
+				122168E0F11B6C610860BAD0 /* Pods-Galileo.debug.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		B02857E59703419003728E9A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				248C1862169A8B4EE324C3A7 /* Galileo.app */,
+				203B48781BE9D7C4009B5882 /* GalileoTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C699B651E965E8B6290F0198 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				A0EB2AC1330705E0F079B459 /* GLAppDelegate.h */,
+				A210B59C13761B6158D7A272 /* GLAppDelegate.m */,
+				204A34701BD8B48700E6DB56 /* Articles */,
+				204A346F1BD8B48100E6DB56 /* Menu */,
+				208368CD1BD82D5800FBE568 /* Favorites */,
+				20C83E711BD85CA0000364D3 /* Settings */,
+				204A346E1BD8B47B00E6DB56 /* About */,
+				204A34761BD8B4C700E6DB56 /* Statistics */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		C7E83CF2CE9C4FDDF26FFF75 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				7B48926F3E0788D7C71925F0 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		C83F194835028C8E81EC4876 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C7E83CF2CE9C4FDDF26FFF75 /* iOS */,
+				4C02B639E59030D209C520E7 /* Pods_Galileo.framework */,
+				A4C4546422F3907DC104988E /* Pods_unit_tests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CAB9F7A451B3B6B97026F5BE /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				20CA6AFDACE2B81E9CC75238 /* Images.xcassets */,
+				FB557E82E2BBA357B3670789 /* Nibs */,
+				20878B821BD7682500A9E320 /* Fonts */,
+				1A794AB51CD082EA9DCEB417 /* Other-Sources */,
+				7C09AF4CAD9A2F4E60704F47 /* Settings.bundle */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		D64BBEB753AE342B1B72F141 /* Libraries */ = {
+			isa = PBXGroup;
+			children = (
+				2060560D1BD716BF001A713A /* VGParallaxHeader */,
+				20707DC71BD08FB100265647 /* VLDContextSheet */,
+			);
+			path = Libraries;
+			sourceTree = "<group>";
+		};
+		DD15F3349A1A06FD04E1DE4D /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				20A473931BC9D2E600B70170 /* GLArticle.h */,
+				20A473941BC9D2E600B70170 /* GLArticle.m */,
+				20A473AF1BCA19F900B70170 /* GLPicture.h */,
+				20A473B01BCA19F900B70170 /* GLPicture.m */,
+				200ED4BF1BD74846000C0D5F /* GLArticlesStorage.h */,
+				200ED4C01BD74846000C0D5F /* GLArticlesStorage.m */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		FB557E82E2BBA357B3670789 /* Nibs */ = {
+			isa = PBXGroup;
+			children = (
+				F26F1BD1950A1F2C3134A21B /* LaunchScreen.xib */,
+			);
+			path = Nibs;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		203B48771BE9D7C4009B5882 /* GalileoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 203B487F1BE9D7C4009B5882 /* Build configuration list for PBXNativeTarget "GalileoTests" */;
+			buildPhases = (
+				0558C16666251AFC2990BE75 /* Check Pods Manifest.lock */,
+				203B48741BE9D7C4009B5882 /* Sources */,
+				203B48751BE9D7C4009B5882 /* Frameworks */,
+				203B48761BE9D7C4009B5882 /* Resources */,
+				6B158D54F081D0A3287D700B /* Embed Pods Frameworks */,
+				42968988881FBF0CE3F905CD /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				203B487E1BE9D7C4009B5882 /* PBXTargetDependency */,
+			);
+			name = GalileoTests;
+			productName = GalileoTests;
+			productReference = 203B48781BE9D7C4009B5882 /* GalileoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		8BCD80686172FA2A7F0D9830 /* Galileo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 82CDF4B52A2C0C0FECC2965F /* Build configuration list for PBXNativeTarget "Galileo" */;
+			buildPhases = (
+				BD453A4A7F2043C6189BEFA9 /* Check Pods Manifest.lock */,
+				E8DBB888A5631F884FF760E2 /* Sources */,
+				4A081CABE858AAFA23FC7740 /* Frameworks */,
+				52F9A37BF64F37921E2C5FFC /* Resources */,
+				CD318728BF90C5C52CF0292E /* Warn for TODO and FIXME comments */,
+				3C1AE67C06F3CC59F28B5407 /* Copy Pods Resources */,
+				E4057869D8AB4CFC33720169 /* Embed Pods Frameworks */,
+				2050444E1BD9E1E9008CC053 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Galileo;
+			productName = Galileo;
+			productReference = 248C1862169A8B4EE324C3A7 /* Galileo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		68F63E3C7B385FDBC5131A09 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = GL;
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = "Ayan Yenbekbay";
+				TargetAttributes = {
+					203B48771BE9D7C4009B5882 = {
+						CreatedOnToolsVersion = 7.1;
+						TestTargetID = 8BCD80686172FA2A7F0D9830;
+					};
+					8BCD80686172FA2A7F0D9830 = {
+						DevelopmentTeam = X5764AN68D;
+					};
+				};
+			};
+			buildConfigurationList = ABB38C7D41954B7BF75EC70A /* Build configuration list for PBXProject "Galileo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 8C6AC1F26EEC5AB41F363463;
+			productRefGroup = B02857E59703419003728E9A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8BCD80686172FA2A7F0D9830 /* Galileo */,
+				203B48771BE9D7C4009B5882 /* GalileoTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		203B48761BE9D7C4009B5882 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		52F9A37BF64F37921E2C5FFC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4D4A9B080095D41569ECC218 /* Images.xcassets in Resources */,
+				2029DC791BD9A2550012E6B4 /* NotoSerif-Regular.ttf in Resources */,
+				20F2A5D91BD8239A005E27AC /* Roboto-Regular.ttf in Resources */,
+				2029DC781BD9A2550012E6B4 /* NotoSerif-Bold.ttf in Resources */,
+				2029DC7B1BD9A2550012E6B4 /* NotoSerif-Italic.ttf in Resources */,
+				2029DC7A1BD9A2550012E6B4 /* NotoSerif-BoldItalic.ttf in Resources */,
+				20878B981BD8217100A9E320 /* Roboto-Black.ttf in Resources */,
+				BD3594C658498FC7338513C4 /* Settings.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0558C16666251AFC2990BE75 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		2050444E1BD9E1E9008CC053 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Fabric/Fabric.framework/run\" 337e6662c13dc165ee9a5114becf5ff652b87ff1 bd9cb4e47506f14d584ea3b5dcc675ed06838ee850d59f876f81ce0267adcefd\n";
+		};
+		3C1AE67C06F3CC59F28B5407 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Galileo/Pods-Galileo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		42968988881FBF0CE3F905CD /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-unit_tests/Pods-unit_tests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6B158D54F081D0A3287D700B /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-unit_tests/Pods-unit_tests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BD453A4A7F2043C6189BEFA9 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		CD318728BF90C5C52CF0292E /* Warn for TODO and FIXME comments */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Warn for TODO and FIXME comments";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "KEYWORDS=\"TODO:|FIXME:|\\?\\?\\?:|\\!\\!\\!:\"\nFILE_EXTENSIONS=\"swift|h|m|mm|c|cpp\"\nfind -E \"${SRCROOT}\" -ipath \"${SRCROOT}/pods\" -prune -o \\( -regex \".*\\.($FILE_EXTENSIONS)$\" \\) -print0 | xargs -0 egrep --with-filename --line-number --only-matching \"($KEYWORDS).*\\$\" | perl -p -e \"s/($KEYWORDS)/ warning: \\$1/\"\n";
+		};
+		E4057869D8AB4CFC33720169 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Galileo/Pods-Galileo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		203B48741BE9D7C4009B5882 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				203B487B1BE9D7C4009B5882 /* GalileoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E8DBB888A5631F884FF760E2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				204A346C1BD8AC3A00E6DB56 /* AYAppStore.m in Sources */,
+				200792E01BD96BAA00BBE6C4 /* GLTouchView.m in Sources */,
+				20A473A81BC9F75000B70170 /* UILabel+GLHelpers.m in Sources */,
+				20A4739B1BC9F23100B70170 /* UIImage+GLHelpers.m in Sources */,
+				20A473A41BC9F64000B70170 /* UIFont+GLSizes.m in Sources */,
+				20C83E741BD85CEE000364D3 /* GLLanguageChoiceTableViewCell.m in Sources */,
+				20E616E21BCB0E2200F581F0 /* GLLoadingImageView.m in Sources */,
+				20707DD01BD08FB100265647 /* VLDContextSheetItemView.m in Sources */,
+				204A346D1BD8AC3A00E6DB56 /* AYFeedback.m in Sources */,
+				20C83E701BD8589A000364D3 /* GLSettingsViewController.m in Sources */,
+				200ED4C11BD74846000C0D5F /* GLArticlesStorage.m in Sources */,
+				204A34751BD8B4BE00E6DB56 /* GLStatisticsViewController.m in Sources */,
+				20A473921BC9C74500B70170 /* GLArticlesViewController.m in Sources */,
+				20A4738F1BC9C0A700B70170 /* GLDataManager.m in Sources */,
+				20A4739E1BC9F32500B70170 /* GLArticleView.m in Sources */,
+				20707DCF1BD08FB100265647 /* VLDContextSheetItem.m in Sources */,
+				28A5EF6C80AF4A7188C80A4D /* GLAppDelegate.m in Sources */,
+				20707DCE1BD08FB100265647 /* VLDContextSheet.m in Sources */,
+				203B48841BEABD49009B5882 /* GLPromptView.m in Sources */,
+				203C5CF01BCB43DE00D217B0 /* GLMenuListViewCell.m in Sources */,
+				20A473951BC9D2E600B70170 /* GLArticle.m in Sources */,
+				200792E11BD96BAA00BBE6C4 /* GLHelpView.m in Sources */,
+				20850DD81BCB276D004FAF28 /* UIWindow+GLHelpers.m in Sources */,
+				E4316A1413253A97354B1680 /* LaunchScreen.xib in Sources */,
+				20D2FA331BD0A3A7002858A1 /* GLPullForActionView.m in Sources */,
+				20A473A11BC9F5CA00B70170 /* UIColor+GLTints.m in Sources */,
+				20E616EF1BCB219900F581F0 /* GLMenuListView.m in Sources */,
+				20A473981BC9E69A00B70170 /* UIView+AYUtils.m in Sources */,
+				208368C91BD82C2E00FBE568 /* GLFavoritesCollectionViewController.m in Sources */,
+				208368CC1BD82D4F00FBE568 /* GLFavoritesCollectionViewCell.m in Sources */,
+				CC185C150731AB4D899B4D13 /* main.m in Sources */,
+				2060560C1BD716B2001A713A /* UIScrollView+VGParallaxHeader.m in Sources */,
+				200ED4BD1BD73AFE000C0D5F /* GLScrollView.m in Sources */,
+				2051AD9D1BD1A7FD005E88D6 /* GLMenuArticleView.m in Sources */,
+				20A473B11BCA19F900B70170 /* GLPicture.m in Sources */,
+				20E616F01BCB219900F581F0 /* GLMenuViewController.m in Sources */,
+				204A34671BD8ABB500E6DB56 /* GLAboutViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		203B487E1BE9D7C4009B5882 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8BCD80686172FA2A7F0D9830 /* Galileo */;
+			targetProxy = 203B487D1BE9D7C4009B5882 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		200106F068AC81C3F8CEC777 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_IMPLICIT_SIGN_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_SUSPICIOUS_IMPLICIT_CONVERSION = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_DEPRECATED_FUNCTIONS = YES;
+				GCC_WARN_ABOUT_MISSING_FIELD_INITIALIZERS = YES;
+				GCC_WARN_ABOUT_MISSING_NEWLINE = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_CHECK_SWITCH_STATEMENTS = YES;
+				GCC_WARN_INITIALIZER_NOT_FULLY_BRACKETED = YES;
+				GCC_WARN_MISSING_PARENTHESES = YES;
+				GCC_WARN_SHADOW = YES;
+				GCC_WARN_SIGN_COMPARE = YES;
+				GCC_WARN_TYPECHECK_CALLS_TO_PRINTF = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_LABEL = YES;
+				GCC_WARN_UNUSED_VALUE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				RUN_CLANG_STATIC_ANALYZER = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		203B48801BE9D7C4009B5882 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B3852E0C995D2160F14D9D56 /* Pods-unit_tests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				INFOPLIST_FILE = GalileoTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = kz.yenbekbay.GalileoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Galileo.app/Galileo";
+			};
+			name = Debug;
+		};
+		203B48811BE9D7C4009B5882 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 04BC0ED966D5A1B8B730DE41 /* Pods-unit_tests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				INFOPLIST_FILE = GalileoTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_BUNDLE_IDENTIFIER = kz.yenbekbay.GalileoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Galileo.app/Galileo";
+			};
+			name = Release;
+		};
+		500A8D4AEFED951CC0DC5ABA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_IMPLICIT_SIGN_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_SUSPICIOUS_IMPLICIT_CONVERSION = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_DEPRECATED_FUNCTIONS = YES;
+				GCC_WARN_ABOUT_MISSING_FIELD_INITIALIZERS = YES;
+				GCC_WARN_ABOUT_MISSING_NEWLINE = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_CHECK_SWITCH_STATEMENTS = YES;
+				GCC_WARN_INITIALIZER_NOT_FULLY_BRACKETED = YES;
+				GCC_WARN_MISSING_PARENTHESES = YES;
+				GCC_WARN_SHADOW = YES;
+				GCC_WARN_SIGN_COMPARE = YES;
+				GCC_WARN_TYPECHECK_CALLS_TO_PRINTF = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_LABEL = YES;
+				GCC_WARN_UNUSED_VALUE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				RUN_CLANG_STATIC_ANALYZER = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		65CFE3376A7FFE6758221F34 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 122168E0F11B6C610860BAD0 /* Pods-Galileo.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				APPLICATION_EXTENSION_API_ONLY = NO;
+				CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DSTROOT = /tmp/xcodeproj.dst;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Galileo/Resources/Other-Sources/Galileo-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_MISSING_NEWLINE = NO;
+				INFOPLIST_FILE = "Galileo/Resources/Other-Sources/Info.plist";
+				INSTALL_PATH = "$(BUILT_PRODUCTS_DIR)";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "kz.yenbekbay.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		6C210662E198595AF4A8E2B9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A3D53AB791990285F6D75402 /* Pods-Galileo.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				APPLICATION_EXTENSION_API_ONLY = NO;
+				CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				DSTROOT = /tmp/xcodeproj.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Galileo/Resources/Other-Sources/Galileo-Prefix.pch";
+				GCC_TREAT_WARNINGS_AS_ERRORS = YES;
+				GCC_WARN_ABOUT_MISSING_NEWLINE = NO;
+				INFOPLIST_FILE = "Galileo/Resources/Other-Sources/Info.plist";
+				INSTALL_PATH = "$(BUILT_PRODUCTS_DIR)";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_CFLAGS = (
+					"-DNS_BLOCK_ASSERTIONS=1",
+					"$(inherited)",
+				);
+				OTHER_CPLUSPLUSFLAGS = (
+					"-DNS_BLOCK_ASSERTIONS=1",
+					"$(inherited)",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "kz.yenbekbay.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		203B487F1BE9D7C4009B5882 /* Build configuration list for PBXNativeTarget "GalileoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				203B48801BE9D7C4009B5882 /* Debug */,
+				203B48811BE9D7C4009B5882 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		82CDF4B52A2C0C0FECC2965F /* Build configuration list for PBXNativeTarget "Galileo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6C210662E198595AF4A8E2B9 /* Release */,
+				65CFE3376A7FFE6758221F34 /* Debug */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ABB38C7D41954B7BF75EC70A /* Build configuration list for PBXProject "Galileo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				500A8D4AEFED951CC0DC5ABA /* Debug */,
+				200106F068AC81C3F8CEC777 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 68F63E3C7B385FDBC5131A09 /* Project object */;
+}

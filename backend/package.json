@@ -1,0 +1,38 @@
+{
+  "name": "galileo-server",
+  "version": "1.0.0",
+  "main": "server/server.js",
+  "scripts": {
+    "pretest": "jshint ."
+  },
+  "dependencies": {
+    "async": "^1.4.2",
+    "cheerio": "^0.19.0",
+    "cli-spinner": "^0.2.1",
+    "colors": "^1.1.2",
+    "compression": "^1.0.3",
+    "errorhandler": "^1.1.1",
+    "loopback": "^2.8.0",
+    "loopback-boot": "^2.4.0",
+    "loopback-connector-postgresql": "^2.3.0",
+    "loopback-datasource-juggler": "^2.7.0",
+    "request": "^2.65.0",
+    "rollbar": "^0.5.8",
+    "serve-favicon": "^2.0.1",
+    "vow": "^0.4.11"
+  },
+  "optionalDependencies": {
+    "loopback-explorer": "^1.1.0"
+  },
+  "devDependencies": {
+    "jshint": "^2.5.6"
+  },
+  "repository": {
+    "type": "",
+    "url": ""
+  },
+  "engines": {
+    "node": "0.12.x"
+  },
+  "description": "Galileo"
+}

@@ -1,0 +1,3 @@
+@interface GLFavoritesCollectionViewController : UIViewController
+
+@end

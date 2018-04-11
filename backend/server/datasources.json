@@ -1,0 +1,14 @@
+{
+  "memory": {
+    "connector": "memory"
+  },
+  "db": {
+    "connector": "postgresql",
+    "host": "0.0.0.0",
+    "port": 5432,
+    "database": "galileo_production",
+    "user": "",
+    "password": "",
+    "ssl": true
+  }
+}
